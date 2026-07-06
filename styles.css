@@ -1,12 +1,14 @@
 /* ── Reset & base ── */
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
 body {
-  font-family: 'Segoe UI', system-ui, sans-serif;
+  font-family: "Segoe UI", system-ui, sans-serif;
   background-color: #f0f2f5;
   color: #1a1a2e;
   min-height: 100vh;
@@ -58,7 +60,9 @@ textarea {
   font-family: inherit;
   color: #1a1a2e;
   background: #fafafa;
-  transition: border-color 0.2s, box-shadow 0.2s;
+  transition:
+    border-color 0.2s,
+    box-shadow 0.2s;
   resize: vertical;
 }
 
@@ -87,7 +91,9 @@ button[type="submit"] {
   font-size: 1rem;
   font-weight: 600;
   cursor: pointer;
-  transition: background-color 0.2s, transform 0.1s;
+  transition:
+    background-color 0.2s,
+    transform 0.1s;
 }
 
 button[type="submit"]:hover {
@@ -139,6 +145,12 @@ button[type="submit"]:active {
 
 /* ── Fade-in animation ── */
 @keyframes fadeIn {
-  from { opacity: 0; transform: translateY(6px); }
-  to   { opacity: 1; transform: translateY(0); }
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
