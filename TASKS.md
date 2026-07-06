@@ -1,6 +1,6 @@
 # Simple Form Project Task
 
-Yo are required to read the instructions carefully in other to carry out the tasks.
+You are required to read the instructions carefully in other to carry out the tasks.
 
 ### Instructions
 
@@ -32,6 +32,6 @@ Right now, the form no longer submits (Outputs the inputted data onto the page),
 
 ##### 3. Sharon
 
-RUn you task after the first 2 problems have been solved. The HTML is broken somewhere and does not output `bio` any longer onto the page after submitting. Scan the HTML file and fix this.
+Run you task after the first 2 problems have been solved. The HTML is broken somewhere and does not output `bio` any longer onto the page after submitting. Scan the HTML file and fix this.
 
 
